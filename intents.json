@@ -1,0 +1,63 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "What's up?"],
+        "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Need any assistance?", "Wassup", "Hey, How you doing"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Take care", "I'm leaving"],
+        "responses": ["Goodbye! Have a great day!", "Take care! See you soon!", "Bye! Come back if you need more help!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "I appreciate it"],
+        "responses": ["You're welcome!", "No problem at all!", "Glad I could help!", "Happy to help!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+        "responses": ["I'm a simple chatbot here to help you.", "I am your friendly chatbot!", "Call me Chatbot, your assistant."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need help", "Help me please"],
+        "responses": ["Of course! What do you need help with?", "Sure! How can I assist you?", "I'm here to help! Ask me anything."]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+        "responses": [
+          "Why did the scarecrow win an award? Because he was outstanding in his field!",
+          "Why dont skeletons fight each other? They dont have the guts.",
+          "Why did the computer go to the doctor? Because it had a virus!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "Is it sunny today?", "Weather forecast"],
+        "responses": [
+          "I'm not sure, but it's always a good idea to check a weather app!",
+          "I'm a chatbot, not a meteorologist, but I hope it's sunny!",
+          "I can't check the weather, but I hope it's nice!"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "When were you created?"],
+        "responses": ["I'm timeless!", "I was created recently, but I'm wise beyond my years!", "Age is just a number for a chatbot."]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who made you?", "Who is your creator?"],
+        "responses": ["I was created by a developer who loves coding!", "A curious mind brought me to life.", "I was crafted by a skilled developer."]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["I don't understand", "What are you?", "This doesn't make sense"],
+        "responses": ["I'm sorry, I didn't get that. Could you rephrase?", "I'm not sure how to respond to that.", "Can you please clarify your question?"]
+      }
+    ]
+  }
+  
