@@ -1,4 +1,3 @@
-Create a new folder in visual studio code, create "chatbot.py" "intents.json" in that folder and paste the code.
-Then create a folder in that folder and name it "templates" add a file in that templates folder and name it "index.html".
+<h1>P4.Implementation of Chatbot using NLP</h1>
 
-To execute the code, type "python chatbot.py" in terminal then "http://127.0.0.1:5000" paste this in your browser.
+This project develops a chatbot using Natural Language Processing (NLP) to enable natural, human-like conversations. Built with Python and Flask, the chatbot processes user input, classifies it into intents, and provides relevant responses. By utilizing NLTK for text processing and scikit-learn for machine learning, the system can understand and respond to various queries, making it suitable for applications like customer service and virtual assistance.
