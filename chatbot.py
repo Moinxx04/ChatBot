@@ -6,14 +6,11 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-# Download NLTK resources if not already done
 nltk.download('punkt')
 
-# Load the intents JSON file
 with open("intents.json") as file:
     intents = json.load(file)
 
-# Prepare data for training
 patterns = []
 tags = []
 for intent in intents["intents"]:
@@ -25,7 +22,6 @@ vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(patterns)
 y = np.array(tags)
 
-# Train a Naive Bayes classifier
 model = MultinomialNB()
 model.fit(X, y)
 
@@ -39,7 +35,6 @@ def get_response(intent):
         if intent_data["tag"] == intent:
             return random.choice(intent_data["responses"])
 
-# Initialize Flask app
 app = Flask(__name__)
 
 @app.route("/")
